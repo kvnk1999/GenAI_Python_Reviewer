@@ -1,7 +1,10 @@
 import streamlit as st
 import google.generativeai as ai
 
-ai.configure(api_key="AIzaSyCHGvCV_UsrQLx8EZrb58IQ9qqQEyRNcYI")
+
+
+ai.configure(api_key = "AIzaSyC61VaSg9IlHVeQw6tMNhKwasoG1J4H3fI")
+
 
 sys_prompt = """You are a helpful AI to review Python code and give 
                 feedback on potential bugs along with suggestions for fixes. Maintain the output as Bug report (as Bold header), fixed code, explaination.
